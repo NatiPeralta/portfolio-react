@@ -1,0 +1,5 @@
+/* Estilos Globais: Define estilos que devem afetar o site inteiro */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
