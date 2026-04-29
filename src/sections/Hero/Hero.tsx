@@ -1,4 +1,5 @@
 import profile from "../../assets/images/profile.png";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 
 function Hero() {
     return (
@@ -7,6 +8,13 @@ function Hero() {
                 <div className="w-full">
                     <h1 className="text-4xl md:text-4xl font-bold">Olá, eu sou Natália Peralta!</h1>
                     <p className="mt-4 text-lg text-slate-300">Desenvolvedora Front-End Junior formada em Ciência da Computação.</p>
+
+                    <div className="mt-6 flex gap-4 justify-center md:justify-start text-2xl text-slate-400 hover:text-white transition">
+                        <FaReact />
+                        <FaJs />
+                        <FaHtml5 />
+                        <FaCss3Alt />
+                    </div>
 
                     <div className="mt-6 flex gap-4">
                         <button className="bg-blue-600 px-6 py-2 rounded-lg hover:bg-blue-500 transition">Ver Projetos</button>
@@ -18,7 +26,7 @@ function Hero() {
                     <img
                     src={profile}
                     alt="Foto de Natália"
-                    className="w-64 h-64 object-cover"
+                    className="w-64 h-64 object-cover rounded-lg"
                      />
                 </div>
             </section>
