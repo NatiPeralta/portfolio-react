@@ -15,4 +15,8 @@
         @apply px-6 max-w-5xl mx-auto min-h-screen flex items-center;
     }
 
+    .tech-stack {
+        @apply text-center;
+    }
+
 }
