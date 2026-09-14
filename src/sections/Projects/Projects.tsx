@@ -26,7 +26,7 @@ function Project() {
             title: "Simfrete",
             description: "Um site desenvolvido durante um desafio técnico para consulta de cidades cadastradas a partir de um CEP.",
             linkGit: "https://github.com/NatiPeralta/cep-range-finder",
-            linkDemo: "https://cep-range-finder-pzj9cbcs3-natiperaltas-projects.vercel.app/",
+            linkDemo: "https://cep-range-finder.vercel.app/",
         },
         {
             img: front,
