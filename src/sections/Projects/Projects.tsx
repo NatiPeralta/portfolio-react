@@ -9,6 +9,7 @@ import hdc from "../../assets/images/hdc.png";
 import insta from "../../assets/images/insta.png";
 import bookstore from "../../assets/images/bookstore.png";
 import frete from "../../assets/images/frete.png";
+import blog from "../../assets/images/blog.png";
 import { useState } from "react";
 
 function Project() {
@@ -36,18 +37,18 @@ function Project() {
             linkDemo: "https://natiperalta.github.io/front-end-exercicios-3/",
         },
         {
-            img: email,
-            title: "Rockin' Shop - Email Marketing",
-            description: "Desenvolvimento de um e-mail marketing responsivo utilizando HTML e CSS, seguindo boas práticas de compatibilidade entre diferentes clientes de e-mail.",
-            linkGit: "https://github.com/NatiPeralta/rockin-shop-email",
-            linkDemo: "https://rockin-shop-email.vercel.app/",
-        },
-        {
             img: insta,
             title: "Clone da Home do Instagram",
             description: "Página clone da ´Home´ e do ´Esqueci minha senha´ do Instagram desenvolvido utilizando HTML e CSS durante o curso de Formação Front end na Udemy.",
             linkGit: "https://github.com/NatiPeralta/clone-home-instagram",
             linkDemo: "https://natiperalta.github.io/clone-home-instagram/",
+        },
+        {
+            img: email,
+            title: "Rockin' Shop - Email Marketing",
+            description: "Desenvolvimento de um e-mail marketing responsivo utilizando HTML e CSS, seguindo boas práticas de compatibilidade entre diferentes clientes de e-mail.",
+            linkGit: "https://github.com/NatiPeralta/rockin-shop-email",
+            linkDemo: "https://rockin-shop-email.vercel.app/",
         },
         {
             img: tributo,
@@ -62,6 +63,13 @@ function Project() {
             description: "Plataforma de serviços desenvolvido durante o curso de Formação Front end na Udemy.",
             linkGit: "https://github.com/NatiPeralta/hdc-host-project",
             linkDemo: "https://natiperalta.github.io/hdc-host-project/",
+        },
+        {
+            img: blog,
+            title: "Blog Semântico",
+            description: "Blog semântico sobre viagens desenvolvido com HTML5 e CSS3 durante o curso de Formação Front-end da Udemy (Hora de Codar).",
+            linkGit: "https://github.com/NatiPeralta/blog-html-semantico",
+            linkDemo: "https://natiperalta.github.io/blog-html-semantico/",
         },
         {
             img: form,
