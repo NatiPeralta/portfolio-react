@@ -10,6 +10,7 @@ import insta from "../../assets/images/insta.png";
 import bookstore from "../../assets/images/bookstore.png";
 import frete from "../../assets/images/frete.png";
 import blog from "../../assets/images/blog.png";
+import apple from "../../assets/images/apple.png";
 import { useState } from "react";
 
 function Project() {
@@ -21,6 +22,13 @@ function Project() {
             description: "Um site onde lista todos os filmes e é possível pesquisar, favoritar e desfavoritar o seu filme favorito!",
             linkGit: "https://github.com/NatiPeralta/react-movies",
             linkDemo: "https://react-movies-mpi4.vercel.app/",
+        },
+        {
+            img: apple,
+            title: "Clone da Landing Page do iPhone 13 Pro",
+            description: "Clone interativo e responsivo da página do iPhone 13 Pro da Apple com alternância de temas (dark/light), criado durante o curso Formação Front-end da Udemy (Hora de Codar)",
+            linkGit: "https://github.com/NatiPeralta/clone_iphone13",
+            linkDemo: "https://natiperalta.github.io/clone_iphone13/",
         },
         {
             img: frete,
